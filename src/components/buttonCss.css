@@ -1,0 +1,21 @@
+/*.cellClasss {
+  display: none;
+}
+myrow:hover + cellClass {
+  display: block;
+}*/
+.cellClass {
+  width: 40px;
+}
+.ReactVirtualized__Table__row .columndelete {
+  display: none;
+}
+.ReactVirtualized__Table__row:hover .columndelete {
+  display: inherit;
+}
+.ReactVirtualized__Table__headerColumn {
+  text-align: center;
+}
+.ReactVirtualized__Table__rowColumn {
+  text-align: center;
+}
